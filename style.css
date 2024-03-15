@@ -1,0 +1,62 @@
+Form {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  form input, form button {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 40px;
+  }
+  
+  form input {
+    width: 280px;
+  }
+  
+  form button {
+    background-color: #088a68;
+    color: white;
+    cursor: pointer;
+    vertical-align: middle;
+    width: 100px;
+    height: 40px;
+    border-radius: 3px;
+    margin-right: 209px;
+    margin-top: 20px;
+  }
+  
+  form button:hover {
+    background-color: #066c55;
+  }
+
+  form input {
+    width: 280px;
+    height: 23px ;
+    font-size: 14px; 
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+  form input[type="email"]:invalid {
+  border: 1px solid #FA5868; 
+}
+
+  form input[type="email"]:valid {
+  border: 1px solid #ccc; 
+}
+
+
